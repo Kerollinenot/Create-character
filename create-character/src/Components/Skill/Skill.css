@@ -1,0 +1,33 @@
+.skill-item {
+    display: flex;
+    justify-content: space-between;
+}
+
+.skill-item:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 3px 3px rgba(0, 0, 0, 0.2);
+}
+
+.change-skill-point input {
+    cursor: pointer;
+}
+
+.beginner {
+    outline: 4px ridge rgba(15, 167, 60, 0.7) !important;
+}
+
+.apprentice {
+    outline: 4px ridge rgba(29, 87, 173, 0.7) !important;
+}
+
+.adept {
+    outline: 4px ridge rgba(116, 42, 185, 0.7) !important;
+}
+
+.expert {
+    outline: 4px ridge rgba(209, 133, 19, 0.904) !important;
+}
+
+.master {
+    outline: 4px ridge rgba(190, 17, 17, 0.7) !important;
+}

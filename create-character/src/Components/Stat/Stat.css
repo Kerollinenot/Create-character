@@ -1,0 +1,20 @@
+.stat-item {
+    display: flex;
+    justify-content: space-between;
+}
+
+.stat-item:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 3px 3px rgba(0, 0, 0, 0.2);
+}
+
+.change-stat-point input {
+    cursor: pointer;
+}
+
+span {
+    display: inline-block;
+    min-width: 30px;
+    text-align: center;
+}
+

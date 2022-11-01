@@ -1,0 +1,30 @@
+.btn {
+    border-radius: 5px;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+ }
+
+ .btn--green {
+    background-color: rgb(58, 190, 69);
+    outline: 2px solid rgba(11, 124, 45, 0.7);
+ }
+
+ .btn--blue {
+    background-color: rgb(70, 130, 180);
+    outline: 2px solid rgba(39, 103, 221, 0.897);
+ }
+
+ .btn--red {
+    background-color: rgb(199, 28, 28);
+    outline: 2px solid rgba(83, 3, 3, 0.7);
+ }
+
+ .btn--small {
+    font-size: 14px;
+ }
+ 
+ .btn--medium {
+    font-size: 18px;
+ }

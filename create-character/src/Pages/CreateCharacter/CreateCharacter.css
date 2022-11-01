@@ -1,0 +1,85 @@
+.wrapper {
+    background: radial-gradient(rgb(192, 192, 192), rgb(100, 100, 100));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px, 0;
+}
+
+.create-character {
+    width: 70vw;
+}
+
+.create-character__meta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px 0;
+}
+
+.attributes {
+    display: flex;
+    margin: 10px 10px 20px 10px;
+    align-items: center;
+    background-color: rgb(211, 211, 211);
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    outline: 4px ridge rgba(0, 0, 0, 0.7);
+}
+
+.create-character__choose-attributes {
+    display: flex;
+    justify-content: space-around;
+}
+
+.main-attributes {
+    min-width: 300px;
+}
+
+.input-name {
+    margin: 10px;
+    align-items: center;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.main-attributes>*,
+.skills>* {
+    box-sizing: border-box;
+    background-color: rgba(17, 17, 17, 0.1);
+    box-shadow: 0 0 3px 3px rgba(17, 17, 17, 0.1);
+    padding: 10px 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.skills {
+    min-width: 300px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    min-height: 150px;
+    justify-content: space-around;
+    
+}
+
+.strength {
+    box-shadow: 0 0 4px 4px rgba(168, 38, 38, 0.74) !important
+}
+
+.agility {
+    box-shadow: 0 0 4px 4px rgba(36, 173, 43, 0.74) !important
+}
+
+.intelligence {
+    box-shadow: 0 0 4px 4px rgba(34, 54, 167, 0.74) !important
+}
+
+.charisma {
+    box-shadow: 0 0 4px 4px rgba(255, 255, 255, 1) !important
+}
